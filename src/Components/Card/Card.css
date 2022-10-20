@@ -1,0 +1,46 @@
+.card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.card__image{
+    width: 240px;
+}
+
+.card__title{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 0;
+    letter-spacing: 1px;
+}
+
+.card__price{
+    font-size: 16px;
+    font-style: italic;
+    padding: 0 0 5px;
+}
+
+.card button{
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s ease;
+    border: 2px solid blueviolet;
+}
+
+.card button:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
