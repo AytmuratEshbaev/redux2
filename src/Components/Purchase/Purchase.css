@@ -1,0 +1,62 @@
+tr {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.purchase__img {
+    width: 100%;
+}
+
+tr td{
+    text-align: center;
+}
+
+.purchase__delete,
+.purchase__control button{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(255, 22, 22);
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+.purchase__title{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.purchase__price,
+.purchase__sum{
+    font-style: italic;
+}
+
+.purchase__control{
+    display: flex;
+    justify-content: center;
+}
+
+.purchase__control button{
+    background-color: rgb(136, 0, 255);
+}
+.purchase__control p{
+    padding: 4px 10px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: rgb(107, 0, 201);
+    margin: 0 1px;
+}
+
+.purchase__sum{
+    color: darkmagenta;
+    font-weight: 500;
+}
+.purchase__sum span{
+    color: #000;
+}

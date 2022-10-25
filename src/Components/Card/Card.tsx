@@ -1,6 +1,5 @@
-import { stat } from 'fs';
-import { useState, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux'
+import { useState } from 'react';
+import { useDispatch } from 'react-redux'
 import { ADD_TO_CART } from '../../Types/ActionTypes';
 import './Card.css'
 
@@ -13,14 +12,12 @@ interface ICard {
 
 const Card = (props: ICard) => {
     let { id, imageSrc, title, price } = props;
-    const [counter, setCounter] = useState(0);
-    let state = useSelector(state => state);
+    const [count, setCount] = useState(0);
+
     let dispatch = useDispatch();
     const addCard = () => {
-        let count = counter + 1;
-        setCounter(count);
-        dispatch({ type: ADD_TO_CART, payload: { id, count } });
-        console.log(state);
+        setCount(count + 1);
+        dispatch({ type: ADD_TO_CART, payload: { id, count: count + 1 } });
     }
 
     return (

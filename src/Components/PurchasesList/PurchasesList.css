@@ -1,0 +1,65 @@
+table.purchaseslist {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.purchaseslist th,
+.purchaseslist tr {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+
+.purchaseslist tr {
+    border: none;
+}
+
+.purchaseslist th td,
+.purchaseslist tr td {
+    width: 100%;
+}
+
+.purchaseslist th td:first-of-type,
+.purchaseslist tr td:first-of-type {
+    flex-basis: 5%;
+}
+
+.purchaseslist th td:nth-of-type(2),
+.purchaseslist tr td:nth-of-type(2) {
+    flex-basis: 19%;
+}
+
+.purchaseslist th td:nth-of-type(3),
+.purchaseslist tr td:nth-of-type(3) {
+    flex-basis: 19%;
+}
+
+.purchaseslist th td:nth-of-type(4),
+.purchaseslist tr td:nth-of-type(4) {
+    flex-basis: 19%;
+}
+
+.purchaseslist th td:nth-of-type(5),
+.purchaseslist tr td:nth-of-type(5) {
+    flex-basis: 19%;
+}
+
+.purchaseslist th td:nth-of-type(6),
+.purchaseslist tr td:nth-of-type(6) {
+    flex-basis: 19%;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #000;
+    font-size: 18px;
+}
+
+.all p:last-of-type {
+    font-weight: bold;
+}
